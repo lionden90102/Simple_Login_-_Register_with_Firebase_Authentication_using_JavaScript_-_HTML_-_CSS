@@ -11,6 +11,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
         <!-- Our stylesheet -->
         <link rel="stylesheet" type="text/css" href="index.css">
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc7Bc8qAAAAAETy9eKBFGLFKqsigTkNHEYox0k3"></script>
+            <!-- Your code -->
     </head>
     <body>
         <h1>Login Testing</h1>
@@ -33,6 +35,14 @@
                             <button onclick="login()">Login</button>
                             <button onclick="register()">Register</button>
                         </div>
+                        <script>
+                            function onClick(e) {
+                              e.preventDefault();
+                              grecaptcha.enterprise.ready(async () => {
+                                const token = await grecaptcha.enterprise.execute('6Lc7Bc8qAAAAAETy9eKBFGLFKqsigTkNHEYox0k3', {action: 'LOGIN'});
+                              });
+                            }
+                          </script>
 
                     </div>
                 </div>

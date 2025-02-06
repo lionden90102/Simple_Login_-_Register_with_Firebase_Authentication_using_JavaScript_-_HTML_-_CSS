@@ -1,0 +1,114 @@
+[debug] [2025-02-06T22:19:57.537Z] ----------------------------------------------------------------------
+[debug] [2025-02-06T22:19:57.539Z] Command:       /usr/local/share/nvm/versions/node/v20.18.1/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2025-02-06T22:19:57.539Z] CLI Version:   13.30.0
+[debug] [2025-02-06T22:19:57.539Z] Platform:      linux
+[debug] [2025-02-06T22:19:57.539Z] Node Version:  v20.18.1
+[debug] [2025-02-06T22:19:57.539Z] Time:          Thu Feb 06 2025 22:19:57 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-02-06T22:19:57.539Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2025-02-06T22:19:57.540Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-06T22:19:57.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-06T22:19:57.544Z] > authorizing via signed-in user (lionden037@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/Simple_Login_-_Register_with_Firebase_Authentication_using_JavaScript_-_HTML_-_CSS
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-06T22:20:42.315Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:20:42.315Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:20:42.317Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-02-06T22:20:42.664Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-02-06T22:20:42.664Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project testing-firebase-27166 (Testing Firebase) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-06T22:20:48.302Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:20:48.302Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:20:48.303Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 [none]
+[debug] [2025-02-06T22:20:48.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 200
+[debug] [2025-02-06T22:20:48.476Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 {"projectId":"testing-firebase-27166","projectNumber":"180092044900","displayName":"Testing Firebase","name":"projects/testing-firebase-27166","resources":{"hostingSite":"testing-firebase-27166","realtimeDatabaseInstance":"testing-firebase-27166-default-rtdb"},"state":"ACTIVE","etag":"1_4987c4aa-0339-443a-9cbf-43fa3fdb81d8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-02-06T22:21:10.492Z] ----------------------------------------------------------------------
+[debug] [2025-02-06T22:21:10.494Z] Command:       /usr/local/share/nvm/versions/node/v20.18.1/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2025-02-06T22:21:10.494Z] CLI Version:   13.30.0
+[debug] [2025-02-06T22:21:10.494Z] Platform:      linux
+[debug] [2025-02-06T22:21:10.494Z] Node Version:  v20.18.1
+[debug] [2025-02-06T22:21:10.494Z] Time:          Thu Feb 06 2025 22:21:10 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-02-06T22:21:10.495Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2025-02-06T22:21:10.495Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-06T22:21:10.499Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-06T22:21:10.499Z] > authorizing via signed-in user (lionden037@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/Simple_Login_-_Register_with_Firebase_Authentication_using_JavaScript_-_HTML_-_CSS
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-06T22:21:14.529Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:21:14.529Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:21:14.531Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-02-06T22:21:14.986Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-02-06T22:21:14.986Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project testing-firebase-27166 (Testing Firebase) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-06T22:21:16.844Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:21:16.844Z] Checked if tokens are valid: true, expires at: 1738881475896
+[debug] [2025-02-06T22:21:16.844Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 [none]
+[debug] [2025-02-06T22:21:17.021Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 200
+[debug] [2025-02-06T22:21:17.022Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testing-firebase-27166 {"projectId":"testing-firebase-27166","projectNumber":"180092044900","displayName":"Testing Firebase","name":"projects/testing-firebase-27166","resources":{"hostingSite":"testing-firebase-27166","realtimeDatabaseInstance":"testing-firebase-27166-default-rtdb"},"state":"ACTIVE","etag":"1_4987c4aa-0339-443a-9cbf-43fa3fdb81d8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-02-06T22:21:25.998Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-02-06T22:21:26.052Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-02-06T22:21:26.053Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.3.0","browserURL":"https://www.gstatic.com/firebasejs/11.3.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.3.0/firebase.tgz"},"live":{"version":"11.3","browserURL":"https://www.gstatic.com/firebasejs/live/11.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.3.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.3.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.3.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.3.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.3.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.3.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.3.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.3.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.3.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.3.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.3.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.3.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.3.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.3.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.3.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.3.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.3.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.3.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.3.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /workspaces/Simple_Login_-_Register_with_Firebase_Authentication_using_JavaScript_-_HTML_-_CSS 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=695776191&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
